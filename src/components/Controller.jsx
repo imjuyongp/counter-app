@@ -1,4 +1,4 @@
-const Controller = ({onClickButton}) => {
+const Controller = ({onClickButton}) => { // 이벤트 헨들러 함수를 props로 받는 형태 (구조분해할당을 통해 props에서 함수 추출)
   return (
     <div>
       <button onClick={() => {
